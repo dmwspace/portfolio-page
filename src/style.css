@@ -1,0 +1,12 @@
+#navbar {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-family: 'Asap', sans-serif;
+    display: inline;
+    text-decoration: none;
+}
+
+#page {
+    background-color: rgb(108, 74, 38);
+    color: white;
+}
