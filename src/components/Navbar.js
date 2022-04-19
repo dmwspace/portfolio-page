@@ -2,14 +2,13 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <div id="navbar">
-            <li id="name">Dean Wright</li>
-            <ul id="navbar-items">
+        <div>
+            <ul>
                 <li>Home</li>
                 <li>Projects</li>
                 <li>Resume</li>
             </ul>
-
+            <br />
         </div>
     )
 }
