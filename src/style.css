@@ -9,7 +9,6 @@ ul {
     text-align: left;
     color: white;
     font-family: 'Asap', sans-serif;
-    text-decoration: none;
     
 }
 
@@ -17,6 +16,7 @@ li {
     display: inline;
     padding: 2em;
     font-size: 2em;
+    text-decoration: none;
 }
 
 #body {
@@ -26,4 +26,12 @@ li {
     padding: .5em;
     background-color: #5c72c9;
     color: white;
+}
+
+#projects {
+    padding: .8em;
+}
+
+#resume {
+    padding: .8em;
 }
