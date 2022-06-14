@@ -5,6 +5,7 @@ import Body from './components/Body';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
