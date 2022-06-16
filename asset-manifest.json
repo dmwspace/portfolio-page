@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dmwspace/portfolio-page.git/static/css/main.9ddef7b1.css",
+    "main.js": "/dmwspace/portfolio-page.git/static/js/main.6cd78171.js",
+    "static/media/pdf.worker.js": "/dmwspace/portfolio-page.git/static/media/pdf.worker.5a4781656f64092ca08b.js",
+    "static/media/dean_wright_resume.pdf": "/dmwspace/portfolio-page.git/static/media/dean_wright_resume.142d5e1c2b359330e877.pdf",
+    "static/media/word-finder.png": "/dmwspace/portfolio-page.git/static/media/word-finder.78e41f987df42c2dd00b.png",
+    "index.html": "/dmwspace/portfolio-page.git/index.html",
+    "main.9ddef7b1.css.map": "/dmwspace/portfolio-page.git/static/css/main.9ddef7b1.css.map",
+    "main.6cd78171.js.map": "/dmwspace/portfolio-page.git/static/js/main.6cd78171.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ddef7b1.css",
+    "static/js/main.6cd78171.js"
+  ]
+}
