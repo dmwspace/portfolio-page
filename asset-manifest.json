@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio-page/static/css/main.f9cfbd84.css",
-    "main.js": "/portfolio-page/static/js/main.f4e715d8.js",
+    "main.js": "/portfolio-page/static/js/main.fd9791c4.js",
     "static/media/pdf.worker.js": "/portfolio-page/static/media/pdf.worker.5a4781656f64092ca08b.js",
     "static/media/dean_wright_resume.pdf": "/portfolio-page/static/media/dean_wright_resume.142d5e1c2b359330e877.pdf",
     "static/media/word-finder.png": "/portfolio-page/static/media/word-finder.78e41f987df42c2dd00b.png",
     "index.html": "/portfolio-page/index.html",
     "main.f9cfbd84.css.map": "/portfolio-page/static/css/main.f9cfbd84.css.map",
-    "main.f4e715d8.js.map": "/portfolio-page/static/js/main.f4e715d8.js.map"
+    "main.fd9791c4.js.map": "/portfolio-page/static/js/main.fd9791c4.js.map"
   },
   "entrypoints": [
     "static/css/main.f9cfbd84.css",
-    "static/js/main.f4e715d8.js"
+    "static/js/main.fd9791c4.js"
   ]
 }
