@@ -24,7 +24,16 @@ export default function Skills() {
                     <Col>
                         <Card style={{width: '18rem'}}>
                             <Card.Title>Professional Skills</Card.Title>
-                            <ListGroup variant="flush"
+                            <ListGroup variant="flush">
+                                <ListGroup.Item>Creative</ListGroup.Item>
+                                <ListGroup.Item>Skilled and Experienced Writer</ListGroup.Item>
+                                <ListGroup.Item>Excellent Communication Skills</ListGroup.Item>
+                                <ListGroup.Item>Professional</ListGroup.Item>
+                                <ListGroup.Item>Organized</ListGroup.Item>
+                                <ListGroup.Item>Motivated</ListGroup.Item>
+                                <ListGroup.Item>Team Player</ListGroup.Item>
+                                <ListGroup.Item>Fast Learner</ListGroup.Item>
+                            </ListGroup>
                         </Card>
                     </Col>
                 </Row>
