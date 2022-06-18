@@ -75,7 +75,7 @@
 
 }
 
-@media screen and (max-width: 1019px) {
+@media screen and (min-width: 350px) and (max-width: 1019px) {
     #navbar {
         top: 0;
         width: 100vw;
@@ -106,13 +106,79 @@
     .body-container {
         align-items: center;
         padding: 1em;
-        width: 90%; 
+        width: 100%; 
     }
     
     .body-card {
-        width: 60%;
+        width: 90%;
         margin: auto;
         font-size: .7em;
+        font-family: 'Tiro Kannada', serif;
+        text-align: center;
+        background-color: rgb(85,33,137);
+        color: white;
+        margin-top: 7vh;
+        border-radius: 10px;
+        border-style: ridge;
+        border-color: grey;
+        border-width: 4px;
+        box-shadow: 5px 5px lightgrey;
+    }
+    
+    .projects-container {
+        padding: .8em;
+        display: block;
+        text-align: center;
+    }
+    
+    .resume-container {
+        width: 100%;
+        margin-top: 8vh;
+        margin-right: auto;
+        margin-left: auto;
+        padding: .8em;
+        display: block-inline;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    #navbar {
+        top: 0;
+        width: 100vw;
+        height: 6vh;
+        background-color: #E97923;
+    }
+    
+    ul {
+        width: 100%;
+        display: block;
+        float: left;
+        list-style-type: none;
+        text-align: left;
+        color: rgb(85, 33, 137);
+        padding-top: .7em;
+        margin-bottom: 2em; 
+    }
+    
+    li {
+        display: inline;
+        padding-right: 1em;
+        padding-left: 1em;
+        font-size: .7em;
+        font-family: 'Asap', sans-serif;
+    }
+    
+    
+    .body-container {
+        align-items: center;
+        padding: 1em;
+        width: 100%; 
+    }
+    
+    .body-card {
+        width: 96%;
+        margin: auto;
+        font-size: .6em;
         font-family: 'Tiro Kannada', serif;
         text-align: center;
         background-color: rgb(85,33,137);
