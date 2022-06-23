@@ -67,10 +67,25 @@
     }
     .project-card {
         width: 12vw;
-        text-decoration: none;
     }
-    Card.Title {
+    .card-link {
         text-decoration: none;
+        color: rgb(85,33,137);
+    }
+    .skills-container {
+        margin-top: 7vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .skills-list {
+        width: 30rem;
+        background-color: #30728B;
+        color: white;
+        border: .3em solid;
+        border-color: #E97923;
+        border-radius: 2em;
+        padding: 1em;
     }
 
 }
@@ -126,9 +141,14 @@
     }
     
     .projects-container {
+        margin-top: 5vh;
         padding: .8em;
         display: block;
         text-align: center;
+    }
+    .card-link {
+        text-decoration: none;
+        color: rgb(85,33,137);
     }
     
     .resume-container {
@@ -138,6 +158,27 @@
         margin-left: auto;
         padding: .8em;
         display: block-inline;
+    }
+    .skills-container {
+        margin-top: 7vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .skills-list {
+        width: 30rem;
+        background-color: #30728B;
+        color: white;
+        border: .3em solid;
+        border-color: #E97923;
+        border-radius: 2em;
+        padding: 1em;
+    }
+    .skills-list h1 {
+        font-size: 4vw;
+    }
+    .skills-list h3 {
+        font-size: 3vw;
     }
 }
 
@@ -192,9 +233,14 @@
     }
     
     .projects-container {
+        margin-top: 8vh;
         padding: .8em;
         display: block;
         text-align: center;
+    }
+    .card-link {
+        text-decoration: none;
+        color: rgb(85,33,137);
     }
     
     .resume-container {
@@ -205,4 +251,26 @@
         padding: .8em;
         display: block-inline;
     }
+    .skills-container {
+        margin-top: 7vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .skills-list {
+        width: 30rem;
+        background-color: #30728B;
+        color: white;
+        border: .3em solid;
+        border-color: #E97923;
+        border-radius: 2em;
+        padding: 1em;
+    }
+    .skills-list h1 {
+        font-size: 4vw;
+    }
+    .skills-list h3 {
+        font-size: 3vw;
+    }
+
 }

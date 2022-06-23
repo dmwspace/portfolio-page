@@ -9,11 +9,11 @@ export default function Projects() {
 
     return (
         <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}>
-            <Container>
+            <Container className="projects-container">
                 <Row xs={1} sm={2} lg={4} xxl={4}>
                     <Col>
                         <Card as="project-card">
-                            <Card.Link href="https://word-finder-game.herokuapp.com/">
+                            <Card.Link href="https://word-finder-game.herokuapp.com/" className="card-link">
                                 <Card.Img 
                                     variant="top" 
                                     src={wordFinderImage}
@@ -27,7 +27,7 @@ export default function Projects() {
                         </Card>                  
                     </Col>
                     <Col>
-                        <Card.Link href="https://dean-wright-weather-app.herokuapp.com">
+                        <Card.Link href="https://dean-wright-weather-app.herokuapp.com" className="card-link">
                             <Card as="project-card">
                                 <Card.Img 
                                     variant="top" 
@@ -43,7 +43,7 @@ export default function Projects() {
                        
                     </Col>
                     <Col>
-                        <Card.Link href="https://dean-wright-news-app.herokuapp.com/">
+                        <Card.Link href="https://dean-wright-news-app.herokuapp.com/" className="card-link">
                             <Card as="project-card">
                                 <Card.Img 
                                     variant="top" 
@@ -59,7 +59,7 @@ export default function Projects() {
                          
                     </Col>
                     <Col>
-                        <Card.Link href="https://dmwspace.github.io/Esperanto-flashcard-game/">
+                        <Card.Link href="https://dmwspace.github.io/Esperanto-flashcard-game/" className="card-link">
                             <Card as="project-card">
                                 <Card.Img 
                                     variant="top" 
