@@ -125,7 +125,7 @@
         display: inline;
         padding-right: 1em;
         padding-left: 1em;
-        font-size: 1em;
+        font-size: 4vw;
         font-family: 'Asap', sans-serif;
     }
 
@@ -139,6 +139,8 @@
         align-items: center;
         padding: 1em;
         width: 100%; 
+        height: 95vh;
+        margin-top: 3.2vh;
         animation: body-background 4s 1;
     }
     
@@ -223,7 +225,7 @@
         display: inline;
         padding-right: 1em;
         padding-left: 1em;
-        font-size: .7em;
+        font-size: 4vw;
         font-family: 'Asap', sans-serif;
     }
     
@@ -236,6 +238,8 @@
         align-items: center;
         padding: 1em;
         width: 100%; 
+        height: 95vh;
+        margin-top: 2.2vh;
         animation: body-background 4s 1;
     }
     
