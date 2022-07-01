@@ -39,6 +39,14 @@
         font-family: 'Asap', sans-serif;
     }
     
+    li:hover {
+        text-transform: uppercase;
+    }
+
+    @keyframes body-background {
+        0% {background-color: black}
+        100% {background-color: white}
+    }
     
     .body-container {
         font-family: 'Tiro Kannada', serif;;
@@ -46,7 +54,11 @@
         text-align: center;
         padding: 1em;
         width: 100%;
+        height: 94vh;
+        animation: body-background 4s 1;
+        margin-top: 3.5vh;
         color: rgb(60,60,60);
+        
     }
     
     .projects-container {
@@ -116,12 +128,18 @@
         font-size: 1em;
         font-family: 'Asap', sans-serif;
     }
+
+    @keyframes body-background {
+        0% {background-color: black}
+        100% {background-color: white}
+    }
     
     
     .body-container {
         align-items: center;
         padding: 1em;
         width: 100%; 
+        animation: body-background 4s 1;
     }
     
     .body-card {
@@ -209,11 +227,16 @@
         font-family: 'Asap', sans-serif;
     }
     
+    @keyframes body-background {
+        0% {background-color: black}
+        100% {background-color: white}
+    }
     
     .body-container {
         align-items: center;
         padding: 1em;
         width: 100%; 
+        animation: body-background 4s 1;
     }
     
     .body-card {
